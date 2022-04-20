@@ -1,0 +1,3 @@
+Fix this SQL query:
+select * from laps
+where laps.nimi == "a"
