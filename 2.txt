@@ -8,3 +8,18 @@
 4->2->1
 5->16->8->4->2->1
 :
+int x;
+do
+{
+if (x % 2 == 0)
+{
+	x/=2;
+}
+else
+{
+	x*=3;
+}
+ConsoleWriteLine(x ->);
+}
+while (x == 1);
+ConsoleWriteLine(x);
