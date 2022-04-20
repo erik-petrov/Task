@@ -8,3 +8,13 @@
 4->2->1
 5->16->8->4->2->1
 :
+
+chislo = int(input("Kirjuta paarisarv: "))
+
+while chislo != 1:
+    if chislo%2 == 0:
+        chislo = chislo/2
+        print(chislo)
+    else:
+        chislo = (chislo*3)+1
+        print(chislo)
