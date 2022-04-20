@@ -8,3 +8,20 @@
 4->2->1
 5->16->8->4->2->1
 :
+int[] num ={10,50,13,4,5};
+foreach x in num
+{
+	do
+	{
+		if(x%2==0)
+		{
+    			x = x/2;
+			WriteLine(x);
+		}
+		else
+		{
+    			x = (x*3)+1;
+			WriteLine(x);
+		}
+	}while(x!=1)
+}
