@@ -1,2 +1,2 @@
 Is HTML a Programming language?
-YES / NO
+NO
